@@ -1,0 +1,35 @@
+#processing-table-row-cell {
+    -fx-background-color: whitesmoke;
+    -fx-cell-size: 20px;
+}
+#processing-table-row-cell:.text {
+    -fx-fill: black;
+}
+#table-row-cell {
+    -fx-cell-size: 20px;
+}
+#zooming-table-row-cell {
+
+}
+#action-button {
+    -fx-background-color:
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-text-fill: black;
+    -fx-font-size: 10px;
+}
+#action-button:hover {
+    -fx-background-color:
+        #ff8c00,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+}
+#action-button:pressed {
+    -fx-background-color:
+        #ff8c00,
+        linear-gradient(#fff6fd, #ffb952),
+        linear-gradient(#eaf6fd 0%, #ff4500 100%);
+}

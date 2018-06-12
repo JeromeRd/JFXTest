@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane fx:controller="sample.MenuController" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" >
+    <MenuBar fx:id="menuBar" onKeyPressed="#handleKeyInput" prefWidth="800.0">
+        <menus>
+            <Menu text="Project">
+                <items>
+                    <MenuItem text="New project" onAction="#newProject" />
+                    <MenuItem text="Remove project" onAction="#removeProject" />
+                    <MenuItem text="Add in project" onAction="#addInProject" />
+                    <MenuItem text="Remove from project" onAction="#removeFromProject" />
+                    <MenuItem text="Select all" onAction="#selectAll"/>
+                    <SeparatorMenuItem />
+                    <MenuItem text="Exit" onAction="#exit"/>
+                </items>
+            </Menu>
+            <Menu text="Actions">
+                <items>
+                    <MenuItem text="Deploy" onAction="#deploy"/>
+                    <MenuItem text="Test" onAction="#test"/>
+                </items>
+            </Menu>
+            <Menu text="Help">
+                <items>
+                    <MenuItem disable="true" text="Versions" />
+                    <SeparatorMenuItem />
+                    <MenuItem onAction="#handleAboutAction" text="About" />
+                </items>
+            </Menu>
+        </menus>
+    </MenuBar>
+</GridPane>

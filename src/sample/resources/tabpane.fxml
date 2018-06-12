@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+
+<GridPane fx:controller="sample.TabPaneController" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" >
+    <TabPane prefHeight="500.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" fx:id="tabpane">
+        <tabs>
+            <Tab text="Project 1" fx:id="tab1">
+                <fx:include source="table.fxml" fx:id="table1" />
+            </Tab>
+            <Tab text="Project 2" fx:id="tab2">
+                <fx:include source="table.fxml" fx:id="table2" />
+            </Tab>
+            <Tab text="Project 3" fx:id="tab3">
+                <fx:include source="table.fxml" fx:id="table3" />
+            </Tab>
+            <Tab text="Project 4" fx:id="tab4">
+                <fx:include source="table.fxml" fx:id="table4" />
+            </Tab>
+            <Tab text="Project 5" fx:id="tab5">
+                <fx:include source="table.fxml" fx:id="table5" />
+            </Tab>
+            <Tab text="Project 6" fx:id="tab6">
+                <fx:include source="table.fxml" fx:id="table6" />
+            </Tab>
+            <Tab text="Project 7" fx:id="tab7">
+                <fx:include source="table.fxml" fx:id="table7" />
+            </Tab>
+            <Tab text="Project 8" fx:id="tab8">
+                <fx:include source="table.fxml" fx:id="table8" />
+            </Tab>
+            <Tab text="Project 9" fx:id="tab9">
+                <fx:include source="table.fxml" fx:id="table9" />
+            </Tab>
+            <Tab text="Project 10" fx:id="tab10">
+                <fx:include source="table.fxml" fx:id="table10" />
+            </Tab>
+        </tabs>
+    </TabPane>
+</GridPane>

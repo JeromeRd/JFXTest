@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<TableView prefHeight="500.0" prefWidth="800.0" tableMenuButtonVisible="true" editable="true" >
+    <columns>
+        <TableColumn prefWidth="150.0" text="Name" editable="false" style="-fx-alignment: CENTER-LEFT;" >
+            <cellValueFactory>
+                <PropertyValueFactory property="name" />
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn prefWidth="50.0" text="Status" editable="false" style="-fx-alignment: CENTER;">
+            <cellValueFactory>
+                <PropertyValueFactory property="status" />
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn prefWidth="100.0" text="Action" editable="false" style="-fx-alignment: CENTER;">
+            <cellValueFactory>
+                <PropertyValueFactory property="action" />
+            </cellValueFactory>
+        </TableColumn>
+        <TableColumn prefWidth="150.0" text="Step" editable="false" style="-fx-alignment: CENTER-LEFT;">
+            <cellValueFactory>
+                <PropertyValueFactory property="step" />
+            </cellValueFactory>
+        </TableColumn>
+    </columns>
+</TableView>
